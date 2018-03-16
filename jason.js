@@ -13,6 +13,7 @@ function onClickButton(e)
                 '"memoria":1024,' +
                 '"discos":[80,250]' +
              '}';
+
   var maquina=JSON.parse(cadena);
 
   alert('microprocesador:'+maquina.microprocesador);
